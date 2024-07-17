@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "AddCalendarEvent"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "AddCalendarEvent"
   s.description  = <<-DESC
                   AddCalendarEvent
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "13.4"
   s.source       = { :git => "https://github.com/author/AddCalendarEvent.git", :tag => "master" }
   s.source_files  = "AddCalendarEvent/**/*.{h,m}"
   s.requires_arc = true
